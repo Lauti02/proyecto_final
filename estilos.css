@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  background-color: darkgray;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: darkgray;
+}
+
+.logoOptimux {
+  cursor: pointer;
+  margin-right: auto;
+  width: 10rem;
+  height: 5rem;
+  border-radius: 10px;
+}
+
+.navStyle {
+  display: flex;
+  align-items: center;
+  flex: 1 0 15px;
+  background-color: darkgray;
+}
+
+.navBar {
+  list-style: none;
+  margin-left: auto;
+  flex-direction: row;
+  background-color: darkgray;
+}
+
+.navBar li {
+  display: inline-block;
+  padding: 0px 30px;
+  background-color: darkgray;
+}
+
+.navBar li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navBar li a:hover {
+  transition: all 0.3s ease 0s;
+  color: rgb(77, 6, 6);
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: center;
+}
+
+.first-image {
+  background-image: url(./imagenes/software-malicioso-cover-blog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.containerContacto {
+  background-image: url(./imagenes/Clouds_over_gray_mountains_28Unsplash29.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.formularioContacto {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.sectionHome {
+  padding: 20px;
+  flex-flow: row wrap;
+}
+
+.divHome {
+  width: 80%;
+  max-width: 900px;
+  height: 110px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: black 0px 0px 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-1 {
+  width: 90%;
+  max-width: 1000px;
+  margin: 1.6em auto;
+  display: grid;
+  gap: 1.6em;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.contenedor-1 > .content-1,
+.contenedor-1 > .article-2,
+.contenedor-1 > .article-1 {
+  background: white;
+  padding: 20px;
+  box-shadow: grey 0px 0px 25px;
+  grid-column: span 5;
+}
+
+.content-1 .article-1,
+.content-1 .article-2 {
+  background: grey;
+  color: white;
+}
+
+.content-1 > .article-1 {
+  font-size: 16px;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.content-1 > .article-2 {
+  font-size: 16px;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.content-1 .article-1 h1,
+.content-1 .article-1 p,
+.content-1 .article-2 h1,
+.content-1 .article-2 p {
+  padding: 10px;
+}
+body {
+  position: relative;
+  padding-bottom: 58px;
+}
+.firstText {
+  color: black;
+  font-size: 20px;
+  flex-flow: row wrap;
+  margin: auto;
+  text-align: center;
+}
+
+.second-image {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.second-section {
+  height: 400px;
+  width: 100%;
+  padding: 20px;
+}
+
+.secondText {
+  font-size: 17px;
+  text-align: center;
+  padding: 100px;
+  box-shadow: grey 0px 0px 25px;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  width: 40%;
+  height: 80%;
+  padding: 22px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+  border-radius: 10px;
+}
+
+input,
+textarea {
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 15px 0px;
+  width: 80%;
+  margin: 20px;
+  transition: all 300ms;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input:focus,
+textarea:focus {
+  border-bottom-color: rgb(88, 2, 2);
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 15px;
+  width: 200px;
+  color: rgb(70, 7, 7);
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px;
+  margin: 10px 0px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
