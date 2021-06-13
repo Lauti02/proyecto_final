@@ -4,24 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="estilos.css" />
-    <title>Document</title>
+
+    <title>Sumate</title>
   </head>
-  <body>
+  <body class="body-1">
     <header>
       <nav class="navStyle">
         <img class="logoOptimux" src="./imagenes/optimux.jpeg" alt="" />
         <ul class="navBar">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="servicios.html">Servicios</a></li>
-          <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="sumate.html">Sumate</a></li>
+          <li class="li-1"><a href="index.html">Home</a></li>
+          <li class="li-1"><a href="servicios.html">Servicios</a></li>
+          <li class="li-1"><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+          <li class="li-1"><a href="contacto.html">Contacto</a></li>
+          <li class="li-1"><a href="sumate.html">Sumate</a></li>
         </ul>
       </nav>
     </header>
+
+    <div class="contenedor">
+      <h1 class="logoNuestro">Entrá a Optimux!</h1>
+      <div class="contact-wrapper">
+        <div class="contact-form">
+          <h3>Sumate</h3>
+          <form action="#">
+            <p>
+              <label>Nombre</label>
+              <input type="text" name="fullname" />
+            </p>
+            <p>
+              <label>E-mail</label>
+              <input type="email" name="email" />
+            </p>
+            <p>
+              <label>Teléfono</label>
+              <input type="tel" name="Teléfono" />
+            </p>
+            <p class="block">
+              <label>Porque te gustaria trabajar con nosotros?</label>
+              <textarea name="mensaje" rows="3"></textarea>
+            </p>
+            <p class="block">
+              <button type="submit">Enviar</button>
+            </p>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h4>Acerca de Nosotros</h4>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> Buenos Aires</li>
+            <li><i class="fa-solid fa-phone"></i>+54 11223344</li>
+            <li><i class="fa-solid fa-envelope-open"></i>example@gmail.com</li>
+          </ul>
+          <p>
+            Necesitamos de tu compromiso y tus ganas, ya que para nosotros, la
+            base de esta empresa son las personas que la conforman.
+          </p>
+          <p>OptimuxServices.com</p>
+        </div>
+      </div>
+    </div>
   </body>
-  <footer>
+  <!-- <footer>
     <p>Copyright &copy; 2021, Ibarra Lautaro</p>
-  </footer>
+  </footer> -->
 </html>
