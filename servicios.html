@@ -4,37 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./estilos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./sass/estilos-1.css" />
     <title>servicios</title>
   </head>
   <body>
-    <header>
-      <nav class="navStyle">
-        <img class="logoOptimux" src="./imagenes/optimux.jpeg" alt="" />
-        <ul class="navBar">
-          <li class="li-1"><a href="index.html">Home</a></li>
-          <li class="li-1"><a href="servicios.html">Servicios</a></li>
-          <li class="li-1"><a href="sobreNosotros.html">Sobre Nosotros</a></li>
-          <li class="li-1"><a href="contacto.html">Contacto</a></li>
-          <li class="li-1"><a href="sumate.html">Sumate</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="contenedor-1">
-      <main class="content-1">
-        <article class="article-1">
-          <h1>Modalidad Remota</h1>
-          <p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            src="./imagenes/optimux.jpeg"
+            alt=""
+            width="100"
+            height="50"
+            class="rounded"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sobreNosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./servicios.html">Servicios</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./sumate.html">Sumate</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="./contacto.html"
+                tabindex="-1"
+                aria-disabled="true"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="bg-light-grey-2">
+      <div class="container mt-5 shadow p-3 mb-5">
+        <div class="content-center">
+          <h2 class="h2-2">Modalidad <b>Remota</b></h2>
+          <p class="p-2">
             Para brindar servicio tecnico a distancia nosotros utilizamos Team
             Viewer. Esta herramienta nos permite tener control total de su
             equipo demanera temporal. Dependiendo de la grave del problema,
             determinaremos si el dispositivo necesita una revision presencial.
           </p>
-        </article>
-
-        <article class="article-2">
-          <h1>Modalidad presencial</h1>
-          <p>
+        </div>
+        <div class="content-center">
+          <h2 class="h2-2">Modalidad <b>presencial</b></h2>
+          <p class="p-2">
             Para brindar servicio tecnico de manera presencial, nosotros
             observaremos la gravedad del inconveniente y le diremos a usted si
             es necesario que nos llevemos el equipo o si podemos solucionar ese
@@ -42,11 +89,22 @@
             nuestros diferentes puntos de trabajo el dispositivo que posea el
             problema.
           </p>
-        </article>
-      </main>
-    </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-white text-center p-5 fixed-bottom">
+      &#169; Lauti 2021. All rights reserved
+    </footer>
   </body>
-  <footer>
-    <p>Copyright &copy; 2021, Ibarra Lautaro</p>
-  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"
+  ></script>
 </html>

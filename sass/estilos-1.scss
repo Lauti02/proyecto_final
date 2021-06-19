@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+$fondo-gris: rgb(163, 162, 162);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo-brand {
+  min-width: 160px;
+  max-width: 280px;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  min-height: 100px;
+}
+
+.nav-link:hover {
+  color: rgb(107, 7, 7);
+}
+
+.bg-light-grey-2 {
+  background-color: $fondo-gris;
+}
+
+.bg-negro-l {
+  background-color: black;
+}
+
+.hero {
+  background-image: url("./imagenes/desarrollo-de-software.jpg");
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 700px;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.topmargin-xs {
+  margin-top: 15px;
+}
+.topmargin-sm {
+  margin-top: 30px;
+}
+.topmargin-lg {
+  margin-top: 60px;
+}
+
+.content-center {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+.h1-index {
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+.p1-index {
+  font-size: 18px;
+  color: grey;
+  line-height: 1.8;
+  margin-bottom: 0;
+  padding-top: 80px;
+}
+
+.hero .p1-index {
+  color: rgb(255, 255, 255);
+}
+
+.h2-2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.sobreNosotros {
+  padding: 120px 0;
+}
+
+.imagenes-2 {
+  position: relative;
+  overflow: hidden;
+  margin: 10px 100px;
+  border-radius: 2px;
+}
+
+.imagenes-2-detalles {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+
+.imagenes-2-detalles a h2,
+.imagenes-2-detalles a p {
+  color: #fff;
+}
+
+.imagenes-2 img {
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.imagenes-2:hover img {
+  -moz-transform: scale (1.2);
+  -webkit-transform: scale (1.2);
+  transform: scale(1.2);
+}
+
+.text-dark {
+  color: black;
+}
+
+.contact-info-2 {
+  width: auto;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .h1-index {
+    font-size: 40px;
+    line-height: normal;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}

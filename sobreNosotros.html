@@ -10,115 +10,130 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./estilos.css" />
+    <link rel="stylesheet" href="./sass/estilos-1.css" />
     <title>sobreNosotros</title>
   </head>
   <body>
-    <header>
-      <nav class="navStyle">
-        <img class="logoOptimux" src="./imagenes/optimux.jpeg" alt="" />
-        <ul class="navBar">
-          <li class="li-1"><a href="index.html">Home</a></li>
-          <li class="li-1"><a href="servicios.html">Servicios</a></li>
-          <li class="li-1"><a href="sobreNosotros.html">Sobre Nosotros</a></li>
-          <li class="li-1"><a href="contacto.html">Contacto</a></li>
-          <li class="li-1"><a href="sumate.html">Sumate</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div
-      id="carouselExampleControls"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
           <img
-            src="./imagenes/5ff7565046db3_671_377!.jpg"
-            class="d-block w-100"
-            alt="..."
+            src="./imagenes/optimux.jpeg"
+            alt=""
+            width="100"
+            height="50"
+            class="rounded"
           />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sobreNosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./servicios.html">Servicios</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./sumate.html">Sumate</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="./contacto.html"
+                tabindex="-1"
+                aria-disabled="true"
+                >Contacto</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="carousel-item">
-          <img
-            src="./imagenes/desarrollo-de-software.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
+      </div>
+    </nav>
+
+    <section class="sobreNosotros">
+      <div class="container-fluid">
+        <div class="content-center">
+          <h2 class="h2-2">Un servicio <b>único!</b></h2>
+          <p class="p-2">
+            En Optimux services te ayudaremos a descubrir que problema tiene tu
+            equipo y brindaremos todas nuestras herramientas para solucionar
+            cualquier inconveniente.Gracias a Google, pudimos formarnos y
+            aprender.Contamos con la certificacion de Google.Utilizamos todo
+            tipo de herramientas para reparar Pc´s y probamos que todo ande
+            perfecto antes de entregarle su equipo.
+          </p>
         </div>
-        <div class="carousel-item">
+      </div>
+    </section>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="imagenes-2">
+          <div class="imagenes-2-detalles"></div>
           <img
-            src="./imagenes/page-soluciones-informaticos-para-empresas.jpg"
-            class="d-block w-100"
-            alt="..."
+            src="./imagenes/computer-keyboards-wallpaper-preview.jpg"
+            class="img-fluid"
           />
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+
+      <div class="col-md-6">
+        <div class="imagenes-2">
+          <div class="imagenes-2-detalles"></div>
+          <img
+            src="./imagenes/keyboards-macbook-tech-computer-wallpaper-preview.jpg"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="imagenes-2">
+          <div class="imagenes-2-detalles"></div>
+          <img
+            src="./imagenes/laptop-macbook-iphone-apple-wallpaper-preview.jpg"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="imagenes-2">
+          <div class="imagenes-2-detalles"></div>
+          <img
+            src="./imagenes/technology-gigabyte-macro-processor-wallpaper-preview.jpg"
+            class="img-fluid"
+          />
+        </div>
+      </div>
     </div>
 
-    <section class="w-50 mx-auto text-center pt-5 pb-5">
-      <h1 class="p-3 fs-2 border-top border-3">Un servicio único!</h1>
-      <p class="p-3 fs-4">
-        En Optimux services te ayudaremos a descubrir que problema tiene tu
-        equipo y brindaremos todas nuestras herramientas para solucionar
-        cualquier inconveniente.
-      </p>
-    </section>
+    <div class="text-center topmargin-sm">
+      <p>Somos los indicados, no dudes en contactarnos</p>
+    </div>
 
-    <section class="container-fluid">
-      <div class="row w-75 mx-auto my-5 justify-content-center">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <img src="./imagenes/image8-2.jpg" alt="" width="280" height="160" />
-        </div>
-
-        <div>
-          <h3 class="fs-5 mt-4 px-4 pb-4 text-center">Estudios</h3>
-          <p class="px-4 text-center">
-            Gracias a Google, pudimos formarnos y aprender.Contamos con la
-            certificacion de Google.
-          </p>
-        </div>
-
-        <div class="col-lg-6 col-md-12 col-sm-12">
-          <img
-            src="/imagenes/Sugerencias-De-Seguridad-Para-La-Reparacion-De-Computadoras-Buenas-Opiniones.png"
-            alt=""
-            width="280"
-            height="160"
-          />
-        </div>
-
-        <div>
-          <h3 class="fs-5 mt-4 px-4 pb-4 text-center">Metodologia</h3>
-          <p class="px-4 text-center">
-            Utilizamos todo tipo de herramientas para reparar Pc´s y probamos
-            que todo ande perfecto antes de entregarle su equipo.
-          </p>
-        </div>
-      </div>
-    </section>
+    <footer class="bg-dark text-white text-center p-5">
+      &#169; Lauti 2021. All rights reserved
+    </footer>
   </body>
-  <footer>
-    <p>Copyright &copy; 2021, Ibarra Lautaro</p>
-  </footer>
 
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
