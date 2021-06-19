@@ -1,3 +1,5 @@
 Acabo de agregar una pequeña descripcion de lo que nosotros nos dedicamos a hacer. Utilicé palabras claves como Servicio tecnico o reparación de PC. 
 
-Al agregar las keywords trate de rescatar sinonimos de "reparacion" y tambien agregue en una keyword la ubicacion asi los potenciales clientes observan de donde somos.
+En el index, al agregar las keywords trate de rescatar sinónimos de "reparación" y tambien agregue en una keyword la ubicación asi los potenciales clientes observan de donde somos.
+
+Trate de hacer algo similar en cada meta keyword de cada seccion: seleccionar palabras que creo importantes.
