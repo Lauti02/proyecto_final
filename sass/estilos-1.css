@@ -3,14 +3,14 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
 
 .navbar {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
-          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
   min-height: 100px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .hero {
-  background-image: url("/imagenes/desarrollo-de-software.jpg");
+  background-image: url("../imagenes/desarrollo-de-software.jpg");
   background-size: cover;
   padding-top: 90px;
   min-height: 700px;
