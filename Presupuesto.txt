@@ -1,0 +1,51 @@
+Optimux Services
+
+Objetivos 
+	-lograr una pagina presentacional, informativa y que capte y 
+	retenga usuarios
+Obstaculos
+	-desarrollo desde 0
+	-tiempo de desarrollo
+
+
+Estructura (esqueleto) 
+
+	-Home (5hs)
+		-navbar 
+		-botones del header
+		-footer
+	-Sobre nosotros (3hs)
+		-imagenes animadas
+	-landing Servicios (3hs)
+		-Descripcion de Servicios ofrecidos
+	-landing Sumate (3hs)
+		-Formulario para sumarte a la empresa
+	-landing Contacto (3hs)	
+		-Formulario para entrar en contacto con la empresa
+
+Diseño (estetica) (5hs)
+	-Sistema de diseño(colores,tamaños,fuentes,linea de 	estetica)
+	-implementaciones internas
+Funcionalidades (6hs)
+	-header adapte a mobile con un boton de menu desplegable
+	-header redirija a lugares correspondientes
+	-Formularios envien los datos a xxxxx
+	-efectos en Sobre Nosotros
+			
+			Presupuesto
+		Construccion del codigo del sitio ($430usd)
+			Maquetado de la Web (17hs)
+			Implementacion del SD (4hs)
+			Aplicacion de funcionalidades (8hs)
+		Aplicacion de servicios referidos al despliegue 		($105usd)
+			Contratacion e implementacion de
+			un proveedor de Hosting (3hs)
+			Compra de un dominio (2hs)
+			Integracion del dominio en el hosting (2hs)
+		SEO y Miscelaneas ($225usd)
+			Control y adaptacion al correcto 					posicionamiento (10hs)
+			Testing manual basico de la app y 					analiticas (5hs)
+
+		Presupuesto Final ---------------------- $760usd
+		Impuestos------------------------------- %15
+		Total ---------------------------------- $874usd
